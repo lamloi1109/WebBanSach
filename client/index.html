@@ -1,206 +1,194 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./CSS/style.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
-      integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <title>Document</title>
-  </head>
-  <body>
-    <div class="page">
-      <div class="page__header">
-        <div class="page__header-top">
-          <div class="header-top-left">
-            <a href="#">
-              <img
-                src="https://seeklogo.com/images/B/booksy-logo-F878D18325-seeklogo.com.png"
-                alt="logo"
-              />
-            </a>
-          </div>
-          <div class="header-top-mid">
-            <div class="header-top-mid--search">
-              <form action="#">
-                <input
-                  type="text"
-                  name="search"
-                  placeholder="Search by author, title, name"
-                />
-                <button type="submit">
-                  <i class="fa-solid fa-magnifying-glass"></i>
-                </button>
-              </form>
-            </div>
-          </div>
-          <div class="header-top-right">
-            <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
-            <a href=""> Đăng nhập </a>
-            <a href=""> Đăng ký </a>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./CSS/style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="page">
+    <div class="page__header">
+      <div class="page__header-top">
+        <div class="header-top-left">
+          <a href="#">
+            <img src="https://seeklogo.com/images/B/booksy-logo-F878D18325-seeklogo.com.png" alt="logo" />
+          </a>
+        </div>
+        <div class="header-top-mid">
+          <div class="header-top-mid--search">
+            <form action="#">
+              <input type="text" name="search" placeholder="Search by author, title, name" />
+              <button type="submit">
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </button>
+            </form>
           </div>
         </div>
-        <div class="page__header-bottom">
-          <div class="header-bottom__nav">
-            <ul class="header-bottom__nav--list">
-              <li class="header-bottom__nav--item">
-                <a href="#">Trang chủ</a>
-              </li>
-              <li class="header-bottom__nav--item">
-                <a href="#">Bán Chạy</a>
-              </li>
-              <li class="header-bottom__nav--item">
-                <select name="category" id="">
-                  <option value="">Danh mục</option>
-                </select>
-              </li>
-              <li class="header-bottom__nav--item">
-                <a href="#">Blog</a>
-              </li>
-              </li>
-            </ul>
-          </div>
+        <div class="header-top-right">
+          <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
+          <a href=""> Đăng nhập </a>
+          <a href=""> Đăng ký </a>
         </div>
       </div>
-      <div class="page__main">
-        <div class="page__main-banner">
-          <div class="page__main-banner--text">
-            <div class="heading">
-              <h1>Buid your library</h1>
-            </div>
-            <div class="paragraph">
-              <p>
-                Buy two selected books and get one for free
-              </p>
-            </div>
-            <div class="btn">
-              <a href="">View all</a>
-            </div>
-          </div>
-          <div class="page__main-banner-img">
-            <img src="./image/mvp.png" alt="">
-          </div>
-        </div>
-        <div class="page__main-heading">
-          <div class="page__main-heading-left">
-            <h2>Popular Now</h2>
-          </div>
-          <div class="page__main-heading-right">
-            <a href="">View All</a>
-          </div>
-        </div>
-        <div class="page__main-product-list">
-          <div class="row">
-            <div class="col">
-              <div class="card">
-                <div class="card-thumb">
-                  <img src="./image/1643421998955_3x.webp" alt="">
-                </div>
-                <div class="card-heading">
-                 <h5>Marketing Đáng Kinh Ngạc</h5>
-                </div>
-                <div class="card-author">
-                  Mark W. Schaefer
-                </div>
-                <div class="card-price">
-                  109.200 ₫
-                </div>
-              </div>
-            </div>
-            <div class="col">
-              <div class="card">
-                <div class="card-thumb">
-                  <img src="./image/1642827395757_3x.webp" alt="">
-                </div>
-                <div class="card-heading">
-                 <h5>Giao Tiếp Lanh Lợi Nói Lời Khôn Ngoan</h5>
-                </div>
-                <div class="card-author">
-                  Mark W. Schaefer
-                </div>
-                <div class="card-price">
-                  109.200 ₫
-                </div>
-              </div>
-            </div>
-            <div class="col">
-              <div class="card">
-                <div class="card-thumb">
-                  <img src="./image/1643440688708_3x.webp" alt="">
-                </div>
-                <div class="card-heading">
-                 <h5>20-30 Tuổi Càng Nhiều Cố Gắng Càng Lắm May Mắn</h5>
-                </div>
-                <div class="card-author">
-                  Mark W. Schaefer
-                </div>
-                <div class="card-price">
-                  109.200 ₫
-                </div>
-              </div>
-            </div>
-            <div class="col">
-              <div class="card">
-                <div class="card-thumb">
-                  <img src="./image/1642581565052_3x.webp" alt="">
-                </div>
-                <div class="card-heading">
-                 <h5>Cố Gắng Đúng Cách Để Thành Công</h5>
-                </div>
-                <div class="card-author">
-                  Mark W. Schaefer
-                </div>
-                <div class="card-price">
-                  109.200 ₫
-                </div>
-              </div>
-            </div>
-            <div class="col">
-              <div class="card">
-                <div class="card-thumb">
-                  <img src="./image/1642990552211_3x.webp" alt="">
-                </div>
-                <div class="card-heading">
-                 <h5>Vứt Bỏ Trái Tim Mong Manh</h5>
-                </div>
-                <div class="card-author">
-                  Lưu Thuyền Dương
-                </div>
-                <div class="card-price">
-                  109.200 ₫
-                </div>
-              </div>
-            </div>
-            <div class="col">
-              <div class="card">
-                <div class="card-thumb">
-                  <img src="./image/1643423658512_3x.webp" alt="">
-                </div>
-                <div class="card-heading">
-                 <h5>Siêu Cá Nhân, Siêu Đội Nhóm</h5>
-                </div>
-                <div class="card-author">
-                  Michael G. Rogers
-                </div>
-                <div class="card-price">
-                  109.200 ₫
-                </div>
-              </div>
-            </div>
-        
-          
-          </div>
-          
+      <div class="page__header-bottom">
+        <div class="header-bottom__nav">
+          <ul class="header-bottom__nav--list">
+            <li class="header-bottom__nav--item">
+              <a href="#">Trang chủ</a>
+            </li>
+            <li class="header-bottom__nav--item">
+              <a href="#">Bán Chạy</a>
+            </li>
+            <li class="header-bottom__nav--item">
+              <select name="category" id="">
+                <option value="">Danh mục</option>
+              </select>
+            </li>
+            <li class="header-bottom__nav--item">
+              <a href="#">Blog</a>
+            </li>
+            </li>
+          </ul>
         </div>
       </div>
-      <div class="page__bottom"></div>
     </div>
-  </body>
-  <script src="./JS/script.js"></script>
+    <div class="page__main">
+      <div class="page__main-banner">
+        <div class="page__main-banner--text">
+          <div class="heading">
+            <h1>Buid your library</h1>
+          </div>
+          <div class="paragraph">
+            <p>
+              Buy two selected books and get one for free
+            </p>
+          </div>
+          <div class="btn">
+            <a href="">View all</a>
+          </div>
+        </div>
+        <div class="page__main-banner-img">
+          <img src="./image/mvp.png" alt="">
+        </div>
+      </div>
+      <div class="page__main-heading">
+        <div class="page__main-heading-left">
+          <h2>Popular Now</h2>
+        </div>
+        <div class="page__main-heading-right">
+          <a href="">View All</a>
+        </div>
+      </div>
+      <div class="page__main-product-list">
+        <div class="row">
+          <div class="col">
+            <div class="card">
+              <div class="card-thumb">
+                <img src="./image/1643421998955_3x.webp" alt="">
+              </div>
+              <div class="card-heading">
+                <h5>Marketing Đáng Kinh Ngạc</h5>
+              </div>
+              <div class="card-author">
+                Mark W. Schaefer
+              </div>
+              <div class="card-price">
+                109.200 ₫
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <div class="card-thumb">
+                <img src="./image/1642827395757_3x.webp" alt="">
+              </div>
+              <div class="card-heading">
+                <h5>Giao Tiếp Lanh Lợi Nói Lời Khôn Ngoan</h5>
+              </div>
+              <div class="card-author">
+                Mark W. Schaefer
+              </div>
+              <div class="card-price">
+                109.200 ₫
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <div class="card-thumb">
+                <img src="./image/1643440688708_3x.webp" alt="">
+              </div>
+              <div class="card-heading">
+                <h5>20-30 Tuổi Càng Nhiều Cố Gắng Càng Lắm May Mắn</h5>
+              </div>
+              <div class="card-author">
+                Mark W. Schaefer
+              </div>
+              <div class="card-price">
+                109.200 ₫
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <div class="card-thumb">
+                <img src="./image/1642581565052_3x.webp" alt="">
+              </div>
+              <div class="card-heading">
+                <h5>Cố Gắng Đúng Cách Để Thành Công</h5>
+              </div>
+              <div class="card-author">
+                Mark W. Schaefer
+              </div>
+              <div class="card-price">
+                109.200 ₫
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <div class="card-thumb">
+                <img src="./image/1642990552211_3x.webp" alt="">
+              </div>
+              <div class="card-heading">
+                <h5>Vứt Bỏ Trái Tim Mong Manh</h5>
+              </div>
+              <div class="card-author">
+                Lưu Thuyền Dương
+              </div>
+              <div class="card-price">
+                109.200 ₫
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <div class="card-thumb">
+                <img src="./image/1643423658512_3x.webp" alt="">
+              </div>
+              <div class="card-heading">
+                <h5>Siêu Cá Nhân, Siêu Đội Nhóm</h5>
+              </div>
+              <div class="card-author">
+                Michael G. Rogers
+              </div>
+              <div class="card-price">
+                109.200 ₫
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="page__bottom"></div>
+  </div>
+</body>
+<script src="./JS/script.js"></script>
 </html>
